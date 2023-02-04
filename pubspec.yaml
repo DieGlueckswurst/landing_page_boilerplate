@@ -26,13 +26,15 @@ dev_dependencies:
 
   flutter_lints: ^2.0.0
   flutter_native_splash: ^2.2.7
+  flutter_launcher_icons: ^0.11.0
 
 flutter_native_splash:
   color: "#222527"
-  # image: assets/app_icons/splash.png
-  android: true
-  ios: true
-  web: true
+
+flutter_icons:
+ web:
+  generate: true
+  image_path: "assets/app/fav_icon.png"
 
 flutter:
 
