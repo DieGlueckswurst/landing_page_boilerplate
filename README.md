@@ -1,17 +1,37 @@
-# landing_page_boilerplate
+# Landing Page
 
-A new Flutter project.
+## Splash Screen
+To change the App Icon simply change the asset in "assets/app_icons/app_icon.png" 
+and run:
 
-## Getting Started
+    flutter pub run flutter_native_splash:create
 
-This project is a starting point for a Flutter application.
+You can change the background color in `pubspec.yaml` inside `flutter_native_splash:`.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Firebase Hosting 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# landing_page_boilerplate
+**Step 1**
+
+`firebase init`
+
+**Step 2**
+
+select `Hosting:...`
+
+**Step 3**
+
+>public directory:      
+`build/web`
+
+>single-page app?       
+`y`
+
+**Step 4**
+
+`flutter build web`
+
+**Step 5**
+
+`firebsae deploy`
+
